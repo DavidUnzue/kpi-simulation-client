@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kpi-simulation-client/static/css/main.4e59d86d.chunk.css",
+    "main.js": "/kpi-simulation-client/static/js/main.d0b5e8dd.chunk.js",
+    "main.js.map": "/kpi-simulation-client/static/js/main.d0b5e8dd.chunk.js.map",
+    "runtime-main.js": "/kpi-simulation-client/static/js/runtime-main.70fba5f6.js",
+    "runtime-main.js.map": "/kpi-simulation-client/static/js/runtime-main.70fba5f6.js.map",
+    "static/js/2.ea7631ec.chunk.js": "/kpi-simulation-client/static/js/2.ea7631ec.chunk.js",
+    "static/js/2.ea7631ec.chunk.js.map": "/kpi-simulation-client/static/js/2.ea7631ec.chunk.js.map",
+    "index.html": "/kpi-simulation-client/index.html",
+    "precache-manifest.21193a7b3e900b6595769867a5e1caac.js": "/kpi-simulation-client/precache-manifest.21193a7b3e900b6595769867a5e1caac.js",
+    "service-worker.js": "/kpi-simulation-client/service-worker.js",
+    "static/css/main.4e59d86d.chunk.css.map": "/kpi-simulation-client/static/css/main.4e59d86d.chunk.css.map",
+    "static/js/2.ea7631ec.chunk.js.LICENSE.txt": "/kpi-simulation-client/static/js/2.ea7631ec.chunk.js.LICENSE.txt",
+    "static/media/location.c93ff43d.svg": "/kpi-simulation-client/static/media/location.c93ff43d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70fba5f6.js",
+    "static/js/2.ea7631ec.chunk.js",
+    "static/css/main.4e59d86d.chunk.css",
+    "static/js/main.d0b5e8dd.chunk.js"
+  ]
+}
