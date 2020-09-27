@@ -29,4 +29,6 @@ Rename the file `.env.sample` into `.env` and fill in the correspoding variables
 npm start
 ```
 
+The app will run under `http://localhost:3000/`.
+
 ## Tests
