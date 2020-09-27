@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TL;DR
+
+Try the deployed client here:
+
+[https://davidunzue.com/kpi-simulation-client/](https://davidunzue.com/kpi-simulation-client/)
+
 ## Installation
 
 You will need [Node.js](https://nodejs.org/en/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed n your system (tested with Node v14.9.0 and npm v6.14.7).
