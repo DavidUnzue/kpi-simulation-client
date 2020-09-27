@@ -1,5 +1,9 @@
 import config from "../config";
 
+/**
+ * This class will be used as a facade to the API fetching implementation.
+ * It uses fetch by default, but this could be easily replaced by somethign like axios.
+ */
 class Api {
   private urlRoot: string;
   private defaultOptions: {};

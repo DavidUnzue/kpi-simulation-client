@@ -19,9 +19,9 @@ The app uses environment variables to load following configuration settings:
 - API host url
 - Mapbox API access token
 
-You will need to create a free account and get an API Token from Mapbox: [https://account.mapbox.com/](https://account.mapbox.com/).
+Mapbox JS API is used to render a map with Geojson markers. A public API token is already provided in the app. If you want to use your own, you will need to create a free account and get an API Token from Mapbox: [https://account.mapbox.com/](https://account.mapbox.com/).
 
-Rename the file `.env.sample` into `.env` and fill in the correspoding variables.
+To change the default env variables without overriding `.env`, rename the file `.env.local.sample` into `.env.local` and fill in the correspoding variables. The variables defined here will be picked in favor of those from `.env`.
 
 ## Start the application
 
