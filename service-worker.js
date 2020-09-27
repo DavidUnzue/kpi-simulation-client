@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kpi-simulation-client/precache-manifest.2d1c570bb84363ac46d8cd60e3bdd30b.js"
+  "/kpi-simulation-client/precache-manifest.be21602d0372faa3a27dbfb75b3a8920.js"
 );
 
 self.addEventListener('message', (event) => {

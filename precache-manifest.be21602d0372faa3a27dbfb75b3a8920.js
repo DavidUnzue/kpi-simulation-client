@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cefe02e25e61511a712c73cdaa09aad3",
+    "revision": "bff20928f01aff208ddc1a2148fd22dc",
     "url": "/kpi-simulation-client/index.html"
   },
   {
-    "revision": "a6437402f98911bee86b",
-    "url": "/kpi-simulation-client/static/css/main.4e59d86d.chunk.css"
+    "revision": "41004296a056bc35b4b8",
+    "url": "/kpi-simulation-client/static/css/main.83575e15.chunk.css"
   },
   {
-    "revision": "9cdfc8684ce596d05221",
-    "url": "/kpi-simulation-client/static/js/2.3c9c33f8.chunk.js"
+    "revision": "e74e39247d3e08113658",
+    "url": "/kpi-simulation-client/static/js/2.9e1d571c.chunk.js"
   },
   {
     "revision": "0fb0e672f1308cb5b7677cdb93fc42ab",
-    "url": "/kpi-simulation-client/static/js/2.3c9c33f8.chunk.js.LICENSE.txt"
+    "url": "/kpi-simulation-client/static/js/2.9e1d571c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6437402f98911bee86b",
-    "url": "/kpi-simulation-client/static/js/main.d1b2719c.chunk.js"
+    "revision": "41004296a056bc35b4b8",
+    "url": "/kpi-simulation-client/static/js/main.56ce5325.chunk.js"
   },
   {
     "revision": "bf097ba5931f36060229",
