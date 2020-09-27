@@ -32,3 +32,7 @@ npm start
 The app will run under `http://localhost:3000/`.
 
 ## Tests
+
+```bash
+npm run test
+```
