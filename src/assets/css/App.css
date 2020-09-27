@@ -1,0 +1,178 @@
+:root {
+  --input-border: #8b8a8b;
+  --input-focus-h: 175;
+  --input-focus-s: 80%;
+  --input-focus-l: 42%;
+  --button-bg: #085156;
+  --button-bg-light: #0b6f76;
+  --button-text: #26c4b8;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.AppSidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex-grow: 0;
+}
+
+.AppHeader {
+  padding: 0 1.5em;
+  font-size: 1.5em;
+}
+
+.Form {
+  padding: 1em 2em;
+  margin: 0 1em 1em;
+  background-color: #ededed;
+}
+
+.FormLabel {
+  padding-bottom: 0.5em;
+  display: block;
+}
+
+.FormInput {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  width: 40%;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  transition: 180ms box-shadow ease-in-out;
+}
+
+.FormInput:focus {
+  border-color: hsl(
+    var(--input-focus-h),
+    var(--input-focus-s),
+    var(--input-focus-l)
+  );
+  box-shadow: 0 0 0 3px
+    hsla(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      calc(var(--input-focus-l) + 40%),
+      0.8
+    );
+  outline: 3px solid transparent;
+}
+
+.FormButton {
+  cursor: pointer;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  border: 0;
+  border-radius: 0.3em;
+  color: #fff;
+  background-color: var(--button-bg);
+}
+
+.FormButton:hover {
+  background-color: var(--button-bg-light);
+}
+
+.Bins {
+  padding: 0 2em 2em;
+  border-bottom: 1px solid #dddddd;
+  font-size: 14px;
+}
+
+.BinsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.BinItem {
+  padding: 0.5em 1em 0;
+  margin: 1em 1em 0 0;
+}
+
+.Points {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.PointsTitle {
+  padding: 1em;
+  font-weight: bold;
+}
+
+.Tabs {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.TabList {
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+.Tab {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0.5em;
+  margin-left: 1em;
+  display: inline;
+}
+
+.Tab.react-tabs__tab--selected {
+  background-color: #ededed;
+}
+
+.TabPanel {
+  overflow-y: scroll;
+}
+
+.PointList {
+  /* overflow-y: scroll; */
+}
+
+.PointItem {
+  padding: 1em 2em;
+  border-bottom: 1px solid #ededed;
+  cursor: pointer;
+}
+
+.PointItem:hover {
+  background-color: #efefef;
+}
+
+.mapContainer {
+  flex: 1;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.popup {
+  z-index: 10;
+}
+
+.markerIcon {
+  cursor: pointer;
+}
+
+.listRow {
+  padding: 1em 2em;
+  margin: 0.5em 0;
+}
